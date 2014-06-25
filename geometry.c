@@ -78,6 +78,5 @@ double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const co
 	double by = b->y;
 	double cx = c->x;
 	double cy = c->y;
-	printf(" %f 	",fabs(((ax*(by - cy)) + (bx*(cy - ay)) + (cx*(ay - by))) / 2.0));
 	return fabs(((ax*(by - cy)) + (bx*(cy - ay)) + (cx*(ay - by))) / 2.0);
 }
